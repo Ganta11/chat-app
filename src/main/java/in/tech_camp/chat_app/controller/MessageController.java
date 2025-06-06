@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MessageController {
   @GetMapping("/")
-  public String showMesaages(){
+  public String showMessages(){
       return "messages/index";
   }
 }
