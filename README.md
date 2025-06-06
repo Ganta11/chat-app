@@ -10,7 +10,7 @@
 | password | VARCHAR(512) | NOT NULL        |
 
 ### Option
--PRIMARY KEY (id)
+- PRIMARY KEY (id)
 
 ## rooms テーブル
 
