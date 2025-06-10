@@ -31,6 +31,6 @@ public interface UserRepository {
   @Select("SELECT COUNT(*) > 0 FROM users WHERE email = #{email} AND id != #{userId}")
   boolean existsByEmailExcludingCurrent(String email, Integer userId);
 
-  @Select("SELECT * FROM users WHERE id <> #{excludedid}")
+  @Select("SELECT * FROM users WHERE id <> #{excludedId}")
   List<UserEntity> findAllExcept(Integer excludedId);
 }
