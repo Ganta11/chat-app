@@ -9,7 +9,7 @@ public class MessageEntity {
   private Integer id;
   private String content;
   private String image;
-  private Timestamp created_at;
+  private Timestamp createdAt;
   private UserEntity user;
   private RoomEntity room;
 }
