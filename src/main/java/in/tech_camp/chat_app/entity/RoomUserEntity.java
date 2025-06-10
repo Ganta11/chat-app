@@ -5,6 +5,6 @@ import lombok.Data;
 @Data
 public class RoomUserEntity {
   private Long id;
-  private UserEntity user_id;
-  private RoomEntity room_id;
+  private UserEntity user;
+  private RoomEntity room;
 }
